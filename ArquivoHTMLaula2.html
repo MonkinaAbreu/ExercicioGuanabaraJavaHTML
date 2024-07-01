@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 2 - Curso em Video / Verificar Idade</title>
+    <link rel="stylesheet" href="ArquivoCSSaula2.css">
+
+</head>
+<body onload="">
+
+    <header>
+        <h1> Verificador de Idade: </h1>
+    </header>
+    
+    <section>
+        <div id="parteInicial">
+            <p>Ano de Nascimento: 
+               <input type="number" name="anoNascimento" id="anoNascimento"> 
+            </p>
+            <p>Sexo: 
+                <input type="radio" name="tipoSexo" id="masculino" checked>
+                <label for="masculino"> Masculino </label>
+                <input type="radio" name="tipoSexo" id="feminino">
+                <label for="feminino"> Feminino </label>
+            </p>
+            <p> Cor da Pele:
+                <input type="radio" name="corPele" id="branca" checked>
+                <label for="branca"> Branca </label>
+                <input type="radio" name="corPele" id="pardoNegro">
+                <label for="pardoNegro"> Parda ou Negra</label>
+            </p>
+            <input type="button" value="Verificar" onclick="verificar()">
+        </div>
+            
+        <div id="resultado">
+             <p> Preencha os dados acima para ver o Resultado!</p>
+             <br><br>
+             <img src=" "  id="foto" alt="fotos de pessoas variadas">
+        </div>
+        
+</section>
+<script src="ArquivoJavaaula2.js"></script>
+<footer>
+<p>Realizado por Monkina Abreu, sob Orientação: Curso em Video - Prof. Gustavo Guanabara</p>
+
+
+</footer>
+
+
+</body>
+</html>

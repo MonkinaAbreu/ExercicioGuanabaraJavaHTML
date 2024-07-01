@@ -1,0 +1,37 @@
+/* Paleta escolhida: https://colorhunt.co/palette/1c16788576ff7bc9ffa3ffd6 */
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink:wght@400;700&display=swap');
+
+
+body{
+
+    font-family: "Aref Ruqaa Ink", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+    color: #1C1678;
+    background-color: #7BC9FF;
+    text-align: center;
+
+
+}
+
+section{
+    background-color: #A3FFD6;
+    width: 900px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 5px 5px 10px rgb(46, 39, 39); 
+}
+
+.imagem{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+
+
+footer{
+    font-style: italic;
+}
